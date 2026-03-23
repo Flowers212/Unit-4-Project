@@ -23,7 +23,7 @@ services:
     build: ./payment
     container_name: payment
     ports:
-      - "5001:5001"
+      - "80:5001"
 
   db:
     image: postgres:15
